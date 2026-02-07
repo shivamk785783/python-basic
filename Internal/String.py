@@ -1,0 +1,7 @@
+s = input("Enter a number as a string: ")
+num_int = int(s)
+num_float = float(s)
+s_again = str(num_int)
+print(num_int, type(num_int))
+print(num_float, type(num_float))
+print(s_again, type(s_again))
